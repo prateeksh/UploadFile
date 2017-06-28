@@ -1,0 +1,35 @@
+databaseChangeLog:
+  - changeSet:
+      id: 1
+      author: prateek
+      changes:
+        - createTable:
+            tableName: uploadfile
+            columns:
+              - column:
+                  name: id
+                  type: bigint
+                  autoIncrement: true
+                  constraints:
+                    primaryKey: true
+                    nullable: false
+              - column:
+                  name: teach_id
+                  type: bigint
+                  constraints:
+                    nullable: false
+              - column:
+                  name: image
+                  type: varchar(255)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: video
+                  type: varchar(255)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: presentation
+                  type: varchar(255)
+                  constraints:
+                    nullable: false
