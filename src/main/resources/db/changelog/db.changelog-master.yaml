@@ -20,16 +20,16 @@ databaseChangeLog:
                     nullable: false
               - column:
                   name: image
-                  type: varchar(255)
+                  type: bytea
                   constraints:
                     nullable: false
               - column:
                   name: video
-                  type: varchar(255)
+                  type: bytea
                   constraints:
                     nullable: false
               - column:
                   name: presentation
-                  type: varchar(255)
+                  type: bytea
                   constraints:
                     nullable: false
