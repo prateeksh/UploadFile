@@ -16,20 +16,12 @@ databaseChangeLog:
               - column:
                   name: teach_id
                   type: bigint
-                  constraints:
-                    nullable: false
               - column:
                   name: image
                   type: bytea
-                  constraints:
-                    nullable: false
               - column:
                   name: video
                   type: bytea
-                  constraints:
-                    nullable: false
               - column:
                   name: presentation
                   type: bytea
-                  constraints:
-                    nullable: false
