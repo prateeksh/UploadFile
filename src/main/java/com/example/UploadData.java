@@ -27,11 +27,11 @@ public class UploadData {
 
     @NotEmpty
     @Column(name = "image")
-    private String image;
+    private byte[] image;
 
     @NotEmpty
     @Column(name = "video")
-    private String video;
+    private byte[] video;
 
     @NotEmpty
     @Column(name = "presen")
@@ -57,19 +57,19 @@ public class UploadData {
         this.teach_id = teach_id;
     }
 
-    public String getImage() {
+    public byte[] getImage() {
         return image;
     }
 
-    public void setImage(String image) {
+    public void setImage(byte[] image) {
         this.image = image;
     }
 
-    public String getVideo() {
+    public byte[]  getVideo() {
         return video;
     }
 
-    public void setVideo(String video) {
+    public void setVideo(byte[]  video) {
         this.video = video;
     }
 

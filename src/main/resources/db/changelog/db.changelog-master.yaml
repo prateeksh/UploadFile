@@ -14,22 +14,17 @@ databaseChangeLog:
                     primaryKey: true
                     nullable: false
               - column:
-                  name: teach_id
-                  type: bigint
-                  constraints:
-                    nullable: false
-              - column:
                   name: image
-                  type: varchar(2000)
+                  type: bytea
                   constraints:
                     nullable: true
               - column:
                   name: video
-                  type: varchar(2000)
+                  type: bytea
                   constraints:
                     nullable: true
               - column:
                   name: presen
-                  type: varchar(2000)
+                  type: varchar(200)
                   constraints:
                     nullable: true
