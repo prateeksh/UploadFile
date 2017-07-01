@@ -32,7 +32,7 @@ public class UploadData {
     private String video;
 
     @NotEmpty
-    @Column(name = "presentation")
+    @Column(name = "presen")
     private String presentation;
 
 

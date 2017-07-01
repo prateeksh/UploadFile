@@ -29,7 +29,7 @@ databaseChangeLog:
                   constraints:
                     nullable: true
               - column:
-                  name: presentation
+                  name: presen
                   type: varchar(200)
                   constraints:
                     nullable: true
