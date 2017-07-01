@@ -16,15 +16,9 @@ databaseChangeLog:
               - column:
                   name: image
                   type: bytea
-                  constraints:
-                    nullable: true
               - column:
                   name: video
                   type: bytea
-                  constraints:
-                    nullable: true
               - column:
                   name: presen
                   type: varchar(200)
-                  constraints:
-                    nullable: true
