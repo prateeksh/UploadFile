@@ -22,10 +22,6 @@ public class UploadData {
     private long id;
 
     @NotEmpty
-    @Column(name = "teach_id")
-    private long teach_id;
-
-    @NotEmpty
     @Column(name = "image")
     private byte[] image;
 
@@ -47,14 +43,6 @@ public class UploadData {
 
     public void setId(long id) {
         this.id = id;
-    }
-
-    public long getTeach_id() {
-        return teach_id;
-    }
-
-    public void setTeach_id(long teach_id) {
-        this.teach_id = teach_id;
     }
 
     public byte[] getImage() {

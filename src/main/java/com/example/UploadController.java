@@ -31,7 +31,7 @@ public class UploadController {
         return new ResponseEntity<UploadData>(user, HttpStatus.OK);
     }
 
-    @RequestMapping(value = "/addmedia", method = RequestMethod.POST)
+    @RequestMapping(value = "/add", method = RequestMethod.POST)
     public ResponseEntity<UploadData> update(@RequestBody UploadData user) {
         repository.save(user);
         return get(user.getId());
