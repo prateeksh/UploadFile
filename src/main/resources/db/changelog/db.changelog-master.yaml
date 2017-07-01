@@ -20,16 +20,16 @@ databaseChangeLog:
                     nullable: false
               - column:
                   name: image
-                  type: varchar(200)
+                  type: varchar(2000)
                   constraints:
                     nullable: true
               - column:
                   name: video
-                  type: varchar(200)
+                  type: varchar(2000)
                   constraints:
                     nullable: true
               - column:
                   name: presen
-                  type: varchar(200)
+                  type: varchar(2000)
                   constraints:
                     nullable: true

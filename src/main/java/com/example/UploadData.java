@@ -2,6 +2,8 @@ package com.example;
 
 import org.hibernate.validator.constraints.NotEmpty;
 
+import java.sql.Blob;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
